@@ -1,4 +1,4 @@
-# Cryptocurrency Analysis with Data Science
+# Cryptocurrency Investment Portfolio with Data Science
 
 <div align="center">
     <img src=images/crypto.webp>
@@ -38,4 +38,4 @@ Data set retrieved from [CryptoCompare](https://min-api.cryptocompare.com/data/a
     - **Plotly:** Python graphing library that makes interactive, publication-quality charts
     - **hvPlot:** High-level Python plotting library that uses HolovViews and Bokeh
 
-[Back to top](#cryptocurrency-analysis-with-data-science)
+[Back to top](#cryptocurrency-investment-portfolio-with-data-science)
