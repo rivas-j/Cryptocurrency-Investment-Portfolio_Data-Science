@@ -1,8 +1,23 @@
-# Cryptocurrencies
+# Cryptocurrency Analysis with Data Science
 
-Martha is a senior manager for the Advisory Services Team at Accountability Accounting, one of your most important clients. Accountability Accounting, a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. So, they’ve asked you to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
+<div align="center">
+    <img src=images/crypto.webp>
+</div>
 
-The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
+## <div align="center">Data Science Driven Cryptocurrency Investment Portfolio</div>
+
+<p align="center">
+<a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
+<a href="#dataset">Dataset</a> &nbsp;&bull;&nbsp;
+<a href="#tools-used">Tools Used</a> &nbsp;&bull;&nbsp;
+<a href="#analysis-and-challenges">Analysis and Challenges</a> &nbsp;&bull;&nbsp;
+<a href="#results">Results</a> &nbsp;&bull;&nbsp;
+<a href="#summary">Summary</a>
+</p>
+
+# <div align="center">Goals</div>
+
+Create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment. The data we're working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
 
 In order to deliver, we took the following steps:
 
@@ -10,3 +25,17 @@ In order to deliver, we took the following steps:
 - Reduced Data Dimensions Using PCA
 - Clustered Cryptocurrencies Using K-means
 - Vizualized Cryptocurrency Results
+
+# <div align="center">Dataset</div>
+
+Data set retrieved from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist), a website that contains Cryptocurrency trading data.
+
+- [Crypto Data:](data/crypto_data.csv) CSV file containing 1,252 Cryptocurrency records
+
+# <div align="center">Tools Used</div>
+- **Python:** Programming language used to build app to automate election audit
+    - **Scikit Learn:** Python library with classification, regression and clustering algorithms
+    - **Plotly:** Python graphing library that makes interactive, publication-quality charts
+    - **hvPlot:** High-level Python plotting library that uses HolovViews and Bokeh
+
+[Back to top](#cryptocurrency-analysis-with-data-science)
